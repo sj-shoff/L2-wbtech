@@ -68,7 +68,7 @@ func merge(a, b <-chan int) <-chan int {
 13245678
 ```
 
-## Объяснение работы конвейера с использованием select
+## Объяснение
 
 1. **`asChan(vs ...int) <-chan int`:**
 
